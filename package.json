@@ -1,0 +1,30 @@
+{
+  "name": "instagram-scrapper",
+  "version": "1.0.2",
+  "description": "Instagram scrapper API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dynamic": "node index.js",
+    "static": "node index.js -s",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "instagram",
+    "api",
+    "scrapper"
+  ],
+  "author": "Douglas Garbim Jr <garbim.douglas@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "chalk": "^2.4.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ora": "^3.4.0",
+    "puppeteer": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
